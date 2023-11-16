@@ -17,4 +17,4 @@ You can disable Auto-delete for all matched users when using `--auto-disable` fl
 Example: `./script.sh --auto-disable`
 
 > [!IMPORTANT]
-> JQ package is required.
+> JQ package is required. The script will attempt to automatically install the package.
