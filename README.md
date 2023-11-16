@@ -1,6 +1,6 @@
 # cpanel-spamassassin Auto-Delete Spam Checker
 This script searches for cPanel accounts with SpamAssassin auto-delete Spam enabled and allows to disable this feature when the flag `--auto-disabled` is used.
-
+It's an attempt to automate the process explained here: https://support.cpanel.net/hc/en-us/articles/360052927113?input_string=spamassassin+auto-delete
 
 ### Usage
 - Download the script
