@@ -39,11 +39,12 @@ get_spam_settings() {
 
         # Check if the value is 1 and display the result
         if [ "$spam_auto_delete_value" == "1" ]; then
-            echo "--- Matched Accounts ---"
+
             # if --minimal flag is used
             if [ -n "$minimal_flag" ]; then
                 echo "$username"
             else
+                echo "--- Matched Account ---"
                 echo "Username: $username"
                 echo "spam_auto_delete: $spam_auto_delete_value"
                 echo "------------------------"
