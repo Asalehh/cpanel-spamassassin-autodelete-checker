@@ -4,7 +4,7 @@ This script searches for cPanel accounts with SpamAssassin auto-delete Spam enab
 
 ### Usage
 - Download the script
-- change permission `chmod +x script.sh`
+- Make it executable `chmod +x script.sh`
 - execute `./script.sh`
 
 ### Optional flags
